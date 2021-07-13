@@ -97,3 +97,16 @@ Contents of playlist.xspf:
 
 </playlist>
 ```
+
+## FAQ
+
+* **Why?**
+  
+  ~~Before music was entirely digital, albums came as a single entity, in a nice package with a dedicated booklet full of information. An album was a product as a whole. Digital music has lost this. You get individual music files, no package and ususually a cover image at best, but no booklet. Zipped Album is an attempt to regain some of that in a digital format.~~
+  
+  I am getting old.
+  
+* **How do I play a Zipped Album?**
+
+  I created [ZAP](https://github.com/zipped-album/zap) as cross-platform player with full Zipped Album support. However, some other players are capable to at least play the audio part of ZAP (i.e. they won't show the booklet). These include [Foobar2000](https://foobar2000.org) and [DeaDBeeF](https://deadbeef.sourceforge.io/).
+  
