@@ -108,5 +108,5 @@ Contents of playlist.xspf:
   
 * **How do I play a Zipped Album?**
 
-  I created [ZAP](https://github.com/zipped-album/zap) as cross-platform player with full Zipped Album support. However, some other players are capable to at least play the audio part of ZAP (i.e. they won't show the booklet). These include [Foobar2000](https://foobar2000.org) and [DeaDBeeF](https://deadbeef.sourceforge.io/).
+  I created [Zipped Audio Player (ZAP)](https://github.com/zipped-album/zap) as cross-platform player with full Zipped Album support. However, some other players are capable to at least play the audio part of ZAP (i.e. they won't show the booklet). These include [Foobar2000](https://foobar2000.org) and [DeaDBeeF](https://deadbeef.sourceforge.io/).
   
