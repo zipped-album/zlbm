@@ -2,10 +2,10 @@
 ***A suggestion for an open single-file music album format***
 
 ## Specification
-A simple ZIP file (not necessarily compressed, not necessarily with .zip extension), with properly tagged (title, albumartist/artist, tracknumber, date) audio files in lossy (Ogg Opus; 96 - 128 Kb/s recommended) or lossles (FLAC; 44.1/48 Khz, 16 bit recommended) format, and an optional digital booklet (PDF; square paper size) of which the first page is the album cover. For compatility with current players, additional (cover) images (JPEG, PNG; square format) can be included. For creating custom compilation albums/mixtapes without changing the tags of the included audio files, an optional playlist (XSPF) might specify any of the following: title, creator, date and track order.
+A simple ZIP file (not necessarily compressed; .zlbm extension recommended), with properly tagged (title, albumartist/artist, tracknumber, date) audio files in lossy (Ogg Opus; 96 - 128 Kb/s recommended) or lossles (FLAC; 44.1/48 Khz, 16 bit recommended) format, and an optional digital booklet (PDF; square paper size) of which the first page is the album cover. For compatility with current players, additional (cover) images (JPEG, PNG; square format) can be included. For creating custom compilation albums/mixtapes without changing the tags of the included audio files, an optional playlist (XSPF) might specify any of the following: title, creator, date and track order.
 
 ```
-├── *.zip|zlbm|*
+├── *.zlbm|*.zip|*
 │   ├── *.opus|flac
 │   ├── ...
 │   ├── [*.pdf]
@@ -15,7 +15,7 @@ A simple ZIP file (not necessarily compressed, not necessarily with .zip extensi
 ```
 
 ## Examples
-The following ZIP files would each be recognized as a ZippedAlbum. While I am not aware of any player that suports showing the PDF booklet (I am working on one though!), there are players that will play the audio and show the cover image if present (e.g. Foobar2000, DeadBeeF).
+The following ZIP files would each be recognized as a Zipped Album. While I am not aware of any player that suports showing the PDF booklet (I am working on one though!), there are players that will play the audio and show the cover image if present (e.g. Foobar2000, DeadBeeF).
 
 **Simplest form with a PDF booklet:**
 ```
