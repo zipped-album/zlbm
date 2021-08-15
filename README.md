@@ -110,3 +110,6 @@ Contents of playlist.xspf:
 
   I created [Zipped Album Player (ZAP)](https://github.com/zipped-album/zap) as cross-platform player with full Zipped Album support. However, some other players are capable of at least playing the audio part of a Zipped Album (i.e. they won't show the booklet). These include [Foobar2000](https://foobar2000.org) and [DeaDBeeF](https://deadbeef.sourceforge.io/).
   
+* **Where do I get music in Zipped Album format?**
+
+  Albums downloaded from Bandcamp in FLAC format, for instance, are compatible, but you can also easily create them yourself from your existing music.
