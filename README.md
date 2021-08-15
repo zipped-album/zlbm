@@ -15,7 +15,7 @@ A simple ZIP file (not necessarily compressed; .zlbm extension recommended), wit
 ```
 
 ## Examples
-The following ZIP files would each be recognized as a Zipped Album. While I am not aware of any player that suports showing the PDF booklet (I am working on one though!), there are players that will play the audio and show the cover image if present (e.g. Foobar2000, DeadBeeF).
+The following ZIP files would each be recognized as a Zipped Album.
 
 **Simplest form with a PDF booklet:**
 ```
